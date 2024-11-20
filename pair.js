@@ -20,7 +20,7 @@ function removeFile(FilePath) {
 
 router.get('/', async (req, res) => {
     const id = makeid();  // Generate unique session ID
-    const name = "GlobalTechInfo";  // Your name to be added to the session ID
+    const name = "𝑫𝑶𝑵 𝑻𝑬𝑪𝑯";  // Your name to be added to the session ID
     const sessionID = `${name}_${id}`;  // Append your name to the session ID
     let num = req.query.number;
 
